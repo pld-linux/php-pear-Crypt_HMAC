@@ -7,7 +7,7 @@ Summary:	%{_pearname} - A class to calculate RFC 2104 compliant hashes
 Summary(pl):	%{_pearname} - klasa licz±ca hashe zgodne z RFC 2104
 Name:		php-pear-%{_pearname}
 Version:	0.9
-Release:	1
+Release:	2
 License:	PHP 2.02
 Group:		Development/Languages/PHP
 # Source0-md5:	31991d712da70f2718f0cd82d8ccfe32
