@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - A class to calculate RFC 2104 compliant hashes
-Summary(pl):	%{_pearname} - klasa licz±ca hashe zgodne z RFC 2104
+Summary(pl.UTF-8):   %{_pearname} - klasa liczÄ…ca hashe zgodne z RFC 2104
 Name:		php-pear-%{_pearname}
 Version:	1.0.1
 Release:	2
@@ -26,14 +26,14 @@ A class to calculate RFC 2104 compliant hashes.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Klasa licz±ca hashe zgodne z RFC 2104.
+%description -l pl.UTF-8
+Klasa liczÄ…ca hashe zgodne z RFC 2104.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{version}-%{release}
 AutoReq:	no
@@ -42,7 +42,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
